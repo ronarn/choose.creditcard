@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Choose.Creditcard — Compare the best credit cards</title>
+  <meta name="description" content="Compare fees, APR, foreign fees, lounge access and rewards. The umbrella hub of The CreditCard Collection by ronarn.">
+  <link rel="canonical" href="https://choose.creditcard" />
+
+  <!-- SEO -->
+  <meta name="keywords" content="credit card comparison, best credit cards, APR, foreign fees, lounge, cashback, ronarn, choose.creditcard">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Choose.Creditcard — Compare the best credit cards">
+  <meta property="og:description" content="Filter by annual fee, APR, foreign fees, lounge access, insurance and rewards.">
+  <meta property="og:url" content="https://choose.creditcard">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://choose.creditcard/preview.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Choose.Creditcard — Compare the best credit cards">
+  <meta name="twitter:description" content="The umbrella hub of The CreditCard Collection.">
+  <meta name="twitter:image" content="https://choose.creditcard/preview.png">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-64FE63JQ3H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date()); gtag('config', 'G-64FE63JQ3H');
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100">
+  <!-- Top bar -->
+  <header class="border-b border-slate-800/60 bg-slate-950/70 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="h-8 w-8 rounded-full bg-sky-500/80 flex items-center justify-center text-xs font-bold">CC</div>
+        <span class="font-semibold tracking-tight">Choose.Creditcard</span>
+      </div>
+      <nav class="hidden md:flex gap-6 text-sm text-slate-300">
+        <a href="#compare" class="hover:text-white">Compare</a>
+        <a href="https://travels.creditcard" class="hover:text-white">Travel</a>
+        <a href="https://cashbacks.creditcard" class="hover:text-white">Cashback</a>
+        <a href="https://tech.creditcard" class="hover:text-white">Tech</a>
+        <a href="https://network.creditcard" class="hover:text-white">Network</a>
+      </nav>
+      <a href="mailto:support@ronarn.com" class="text-xs md:text-sm bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold rounded-lg px-3 py-1.5 transition">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-6xl mx-auto px-4 pt-10 pb-12">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="text-xs uppercase tracking-[0.3em] text-sky-300 mb-4">The CreditCard Collection · hub</p>
+        <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight mb-4">
+          Compare and choose<br class="hidden md:block" />
+          <span class="text-sky-300">the right credit card.</span>
+        </h1>
+        <p class="text-slate-300 leading-relaxed mb-6">
+          Filter by annual fee, effective APR, foreign fees, lounge access, insurance and rewards. Start with our editor’s picks or open the full table.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <a href="#compare" class="bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold rounded-lg px-4 py-2 text-sm transition">Open comparison</a>
+          <a href="https://network.creditcard" class="text-sm text-slate-200 hover:text-white underline underline-offset-4">About the network</a>
+        </div>
+      </div>
+      <div class="bg-slate-900/30 border border-slate-800 rounded-2xl p-6 md:p-8">
+        <p class="text-slate-300 text-sm mb-3">Quick picks</p>
+        <ul class="space-y-2 text-sm">
+          <li class="flex items-center justify-between bg-slate-900/50 px-3 py-2 rounded-lg"><span>Travel cards</span><a class="text-sky-300 text-xs" href="https://travels.creditcard">See travel</a></li>
+          <li class="flex items-center justify-between bg-slate-900/50 px-3 py-2 rounded-lg"><span>Cashback & rewards</span><a class="text-sky-300 text-xs" href="https://cashbacks.creditcard">See cashback</a></li>
+          <li class="flex items-center justify-between bg-slate-900/50 px-3 py-2 rounded-lg"><span>Low APR</span><a class="text-sky-300 text-xs" href="#compare">Compare APR</a></li>
+          <li class="flex items-center justify-between bg-slate-900/50 px-3 py-2 rounded-lg"><span>Virtual & security</span><a class="text-sky-300 text-xs" href="https://tech.creditcard">See tech</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compare (MVP table placeholder) -->
+  <section id="compare" class="max-w-6xl mx-auto px-4 pb-12">
+    <h2 class="text-xl font-semibold mb-4">Comparison</h2>
+    <div class="flex flex-wrap gap-2 mb-3 text-sm text-slate-300">
+      <select class="bg-slate-900 border border-slate-800 rounded-lg px-3 py-2">
+        <option>All categories</option><option>Travel</option><option>Cashback</option><option>Low APR</option><option>Business</option>
+      </select>
+      <select class="bg-slate-900 border border-slate-800 rounded-lg px-3 py-2">
+        <option>Sort: Editor’s pick</option><option>Annual fee (low)</option><option>APR (low)</option><option>Foreign fee (low)</option><option>Rewards (high)</option>
+      </select>
+    </div>
+    <div class="overflow-x-auto border border-slate-800 rounded-xl">
+      <table class="min-w-full text-sm">
+        <thead class="bg-slate-900 text-slate-300">
+          <tr><th class="text-left p-3">Card</th><th class="text-left p-3">Annual fee</th><th class="text-left p-3">Eff. APR</th><th class="text-left p-3">Foreign fee</th><th class="text-left p-3">Perks</th><th class="text-right p-3">Action</th></tr>
+        </thead>
+        <tbody class="divide-y divide-slate-800">
+          <tr>
+            <td class="p-3"><div class="font-medium">DNB Saga Mastercard</div><div class="text-slate-400 text-xs">DNB</div></td>
+            <td class="p-3">0 kr</td><td class="p-3">23.4%</td><td class="p-3">1.75%</td><td class="p-3">Lounge, travel insurance</td>
+            <td class="p-3 text-right"><a class="px-3 py-1.5 rounded-lg bg-sky-500 text-slate-950 font-semibold" href="#">Go to bank</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-xs text-slate-500 mt-3">* Contains affiliate links when marked as such. Confirm terms at issuer.</p>
+  </section>
+
+  <!-- Guides -->
+  <section class="max-w-6xl mx-auto px-4 pb-16">
+    <h2 class="text-xl font-semibold mb-4">Guides</h2>
+    <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
+      <a class="bg-slate-900/40 border border-slate-800 rounded-xl p-4" href="/guides/apr"><h3 class="font-semibold">APR explained</h3><p class="text-xs text-slate-400 mt-2">What effective interest means.</p></a>
+      <a class="bg-slate-900/40 border border-slate-800 rounded-xl p-4" href="/guides/foreign-fees"><h3 class="font-semibold">Foreign fees</h3><p class="text-xs text-slate-400 mt-2">Save on travel purchases.</p></a>
+      <a class="bg-slate-900/40 border border-slate-800 rounded-xl p-4" href="/guides/lounges"><h3 class="font-semibold">Lounges</h3><p class="text-xs text-slate-400 mt-2">How access works.</p></a>
+      <a class="bg-slate-900/40 border border-slate-800 rounded-xl p-4" href="/guides/security"><h3 class="font-semibold">Security</h3><p class="text-xs text-slate-400 mt-2">Insurance & chargebacks.</p></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500">
+    Part of <span class="text-slate-200">The CreditCard Collection</span> · built by <span class="text-slate-200">ronarn</span> · Contact: <a href="mailto:support@ronarn.com" class="underline underline-offset-4">support@ronarn.com</a>
+  </footer>
+</body>
+</html>
